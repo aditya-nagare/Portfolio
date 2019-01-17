@@ -26,7 +26,7 @@ To customize the CSV file pass an command line argument `-csv="<filename>"` for 
 The default time limit is set to `30 seconds`, but the user is also able to customize the time limit via command line arguments.
 To customize the time limit pass an command line argument `-limit=<seconds>` for example if the time limit is 5 seconds pass the argument as:
 
-```go run main.go -csv="abc.csv"```
+```go run main.go -limit=2```
 
 
 

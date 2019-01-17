@@ -16,3 +16,5 @@ npm start
 ```
 
 Then open [http://localhost:3000/](http://localhost:3000/) to see your app.<br>
+
+PS: This is just a practice project.
