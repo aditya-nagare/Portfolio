@@ -23,7 +23,7 @@ func main() {
 - path: /fb
   url: https://facebook.com
 - path: /urlshort
-  url: https://github.com/aditya-nagare/Portfolio/GO-URL-Shortner
+  url: https://github.com/aditya-nagare/Portfolio/Go-URL-Shortner
 `
 	yamlHandler, err := urlshort.YAMLHandler([]byte(yaml), mapHandler)
 	if err != nil {
