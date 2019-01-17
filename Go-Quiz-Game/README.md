@@ -10,7 +10,7 @@ The default time limit is set to `30 seconds` but the user is able to customize 
 
 
 
-##To Run The Program(on Linux):
+## To Run The Program(on Linux):
 
 Go to the directory where the program is stored and run the program using following commands:
 
@@ -30,7 +30,7 @@ To customize the time limit pass an command line argument `-limit=<seconds>` for
 
 
 
-##To Install Go(Golang):
+## To Install Go(Golang):
 
 If your system doesn't has Go installed on it, go to the following link and download and install as per your OS:
 
