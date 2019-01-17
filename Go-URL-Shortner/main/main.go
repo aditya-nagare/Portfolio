@@ -10,18 +10,20 @@ import (
 func main() {
 	mux := defaultMux()
 
-	// Build the MapHandler using the mux as the fallback
 	pathsToUrls := map[string]string{
 		"/ggl": "https://google.com",
 		"/yt":  "https://youtube.com",
+		"/fb":  "https://facebook.com",
 	}
 	mapHandler := urlshort.MapHandler(pathsToUrls, mux)
 
-	// Build the YAMLHandler using the mapHandler as the
-	// fallback
 	yaml := `
-- path: /fb
-  url: https://facebook.com
+- path: /wiki
+  url: https://wikipedia.org
+- path: /med
+  url: https://medium.com
+- path: /9
+  url: https://9gag.com
 - path: /urlshort
   url: https://github.com/aditya-nagare/Portfolio/Go-URL-Shortner
 `

@@ -29,6 +29,7 @@ func MapHandler(pathsToUrls map[string]string, fallback http.Handler) http.Handl
 // URL. If the path is not provided in the YAML, then the
 // fallback http.Handler will be called instead.
 //
+
 // YAML is expected to be in the format:
 //
 //     - path: /some-path

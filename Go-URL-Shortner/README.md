@@ -1,34 +1,33 @@
 # Go-Quiz-Game
 
-This is a Simple Go(Golang) Program to read in a quiz provided via a CSV file and will then give the quiz to a user also keeping track of how many questions they get right and how many they get incorrect.
-The quiz also has a timer. The quiz stops as soon as the time limit has exceeded.
+This is a Simple Go(Golang) Program to create an [http.Handler](https://golang.org/pkg/net/http/#Handler) that will look at the path of any incoming web request and determine if it should redirect the user to a new page, much like URL shortener would.
 
-At the end of the quiz the program outputs the total number of questions correct and how many questions there were there in total. Questions given invalid answers or unanswered are considered incorrect.
-
-The default CSV file is set to `problems.csv` but the user is able to customize the filename via a flag.
-The default time limit is set to `30 seconds` but the user is able to customize via a flag.
-
+For instance, if a redirect is setup for `/ggl` to `https://www.google.com`, the program looks for any incoming web requests with the path `/ggl` and redirect them.
 
 
 ## To Run The Program(on Linux):
 
 Go to the directory where the program is stored and run the program using following commands:
 
-```go run main.go```
+```go run main/main.go```
 
+Then go to your browser and go to
 
-The default CSV file is set to `problems.csv` but the user is also able to customize the filename via command line arguments.
-To customize the CSV file pass an command line argument `-csv="<filename>"` for example if the filename is abc.csv pass the argument as: 
+```localhost:8080```
 
-```go run main.go -csv="abc.csv"```
+You can go to the these following URL redirects to access the files:
 
+```localhost:8080/ggl``` for google.com
 
-The default time limit is set to `30 seconds`, but the user is also able to customize the time limit via command line arguments.
-To customize the time limit pass an command line argument `-limit=<seconds>` for example if the time limit is 5 seconds pass the argument as:
+```localhost:8080/yt``` for youtube.com
 
-```go run main.go -csv="abc.csv"```
+```localhost:8080/fb``` for facebook.com
 
+```localhost:8080/wiki``` for wikipedia.org
 
+```localhost:8080/med``` for medium.com
+
+```localhost:8080/9``` for 9gag.com
 
 ## To Install Go(Golang):
 
