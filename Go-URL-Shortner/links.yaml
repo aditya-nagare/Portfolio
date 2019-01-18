@@ -1,0 +1,8 @@
+- path: /wiki
+  url: https://wikipedia.org
+- path: /med
+  url: https://medium.com
+- path: /9
+  url: https://9gag.com
+- path: /urlshort
+  url: https://github.com/aditya-nagare/Portfolio/Go-URL-Shortner
