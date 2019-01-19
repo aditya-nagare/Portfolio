@@ -4,7 +4,6 @@ import (
 	"flag"
 	"fmt"
 	"io/ioutil"
-	"log"
 	"os"
 	"strconv"
 	"strings"
@@ -23,7 +22,8 @@ func main() {
 
 	files, err := ioutil.ReadDir(filesDir)
 	if err != nil {
-		log.Fatal(err)
+		fmt.Println("No 'files' Folder present in Current Working Directory")
+		os.Exit(1)
 	}
 
 	for w := 1; w <= 10; w++ {
