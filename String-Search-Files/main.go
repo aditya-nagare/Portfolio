@@ -22,7 +22,7 @@ func main() {
 
 	files, err := ioutil.ReadDir(filesDir)
 	if err != nil {
-		fmt.Println("No 'files' Folder present in Current Working Directory")
+		fmt.Println("No Folder name 'files' present in Current Working Directory")
 		os.Exit(1)
 	}
 
