@@ -1,27 +1,85 @@
-"What is the name of this obliging youth?" asked Sherlock Holmes.
 
-"His name is Vincent Spaulding, and he's not such a youth, either. It's hard to say his age. I should not wish a smarter assistant, Mr. Holmes; and I know very well that he could better himself and earn twice what I am able to give him. But, after all, if he is satisfied, why should I put ideas in his head?"
+" 'Tell me, Helen,' said she, 'have you ever heard anyone whistle in the dead of the night?'
 
-"Why, indeed? You seem most fortunate in having an employe who comes under the full market price. It is not a common experience among employers in this age. I don't know that your assistant is not as remarkable as your advertisement."
+" 'Never,' said I.
 
-"Oh, he has his faults, too," said Mr. Wilson. "Never was such a fellow for photography. Snapping away with a camera when he ought to be improving his mind, and then diving down into the cellar like a rabbit into its hole to develop his pictures. That is his main fault, but on the whole he's a good worker. There's no vice in him."
+" 'I suppose that you could not possibly whistle, yourself, in your sleep?'
 
-"He is still with you, I presume?"
+" 'Certainly not. But why?'
 
-"Yes, sir. He and a girl of fourteen, who does a bit of simple cooking and keeps the place clean--that's all I have in the house, for I am a widower and never had any family. We live very quietly, sir, the three of us; and we keep a roof over our heads and pay our debts, if we do nothing more.
+" 'Because during the last few nights I have always, about three in the morning, heard a low, clear whistle. I am a light sleeper, and it has awakened me. I cannot tell where it came from--perhaps from the next room, perhaps from the lawn. I thought that I would just ask you whether you had heard it.'
 
-"The first thing that put us out was that advertisement. Spaulding, he came down into the office just this day eight weeks, with this very paper in his hand, and he says:
+" 'No, I have not. It must be those wretched gipsies in the plantation.'
 
-" 'I wish to the Lord, Mr. Wilson, that I was a red-headed man.'
+" 'Very likely. And yet if it were on the lawn, I wonder that you did not hear it also.'
 
-" 'Why that?' I asks.
+" 'Ah, but I sleep more heavily than you.'
 
-" 'Why,' says he, 'here's another vacancy on the League of the Red-headed Men. It's worth quite a little fortune to any man who gets it, and I understand that there are more vacancies than there are men, so that the trustees are at their wits' end what to do with the money. If my hair would only change colour, here's a nice little crib all ready for me to step into.'
+" 'Well, it is of no great consequence, at any rate.' She smiled back at me, closed my door, and a few moments later I heard her key turn in the lock."
 
-" 'Why, what is it, then?' I asked. You see, Mr. Holmes, I am a very stay-at-home man, and as my business came to me instead of my having to go to it, I was often weeks on end without putting my foot over the door-mat. In that way I didn't know much of what was going on outside, and I was always glad of a bit of news.
+"Indeed," said Holmes. "Was it your custom always to lock yourselves in at night?"
 
-" 'Have you never heard of the League of the Red-headed Men?' he asked with his eyes open.
+"Always."
 
-" 'Never.'
+"And why?"
 
-" 'Why, I wonder at that, for you are eligible yourself for one of the vacancies.'
+"I think that I mentioned to you that the doctor kept a cheetah and a baboon. We had no feeling of security unless our doors were locked."
+
+"Quite so. Pray proceed with your statement."
+
+"I could not sleep that night. A vague feeling of impending misfortune impressed me. My sister and I, you will recollect, were twins, and you know how subtle are the links which bind two souls which are so closely allied. It was a wild night. The wind was howling outside, and the rain was beating and splashing against the windows. Suddenly, amid all the hubbub of the gale, there burst forth the wild scream of a terrified woman. I knew that it was my sister's voice. I sprang from my bed, wrapped a shawl round me, and rushed into the corridor. As I opened my door I seemed to hear a low whistle, such as my sister described, and a few moments later a clanging sound, as if a mass of metal had fallen. As I ran down the passage, my sister's door was unlocked, and revolved slowly upon its hinges. I stared at it horror-stricken, not knowing what was about to issue from it. By the light of the corridor-lamp I saw my sister appear at the opening, her face blanched with terror, her hands groping for help, her whole figure swaying to and fro like that of a drunkard. I ran to her and threw my arms round her, but at that moment her knees seemed to give way and she fell to the ground. She writhed as one who is in terrible pain, and her limbs were dreadfully convulsed. At first I thought that she had not recognised me, but as I bent over her she suddenly shrieked out in a voice which I shall never forget, 'Oh, my God! Helen! It was the band! The speckled band!' There was something else which she would fain have said, and she stabbed with her finger into the air in the direction of the doctor's room, but a fresh convulsion seized her and choked her words. I rushed out, calling loudly for my stepfather, and I met him hastening from his room in his dressing-gown. When he reached my sister's side she was unconscious, and though he poured brandy down her throat and sent for medical aid from the village, all efforts were in vain, for she slowly sank and died without having recovered her consciousness. Such was the dreadful end of my beloved sister."
+
+"One moment," said Holmes, "are you sure about this whistle and metallic sound? Could you swear to it?"
+
+"That was what the county coroner asked me at the inquiry. It is my strong impression that I heard it, and yet, among the crash of the gale and the creaking of an old house, I may possibly have been deceived."
+
+"Was your sister dressed?"
+
+"No, she was in her night-dress. In her right hand was found the charred stump of a match, and in her left a match-box."
+
+"Showing that she had struck a light and looked about her when the alarm took place. That is important. And what conclusions did the coroner come to?"
+
+"He investigated the case with great care, for Dr. Roylott's conduct had long been notorious in the county, but he was unable to find any satisfactory cause of death. My evidence showed that the door had been fastened upon the inner side, and the windows were blocked by old-fashioned shutters with broad iron bars, which were secured every night. The walls were carefully sounded, and were shown to be quite solid all round, and the flooring was also thoroughly examined, with the same result. The chimney is wide, but is barred up by four large staples. It is certain, therefore, that my sister was quite alone when she met her end. Besides, there were no marks of any violence upon her."
+
+"How about poison?"
+
+"The doctors examined her for it, but without success."
+
+"What do you think that this unfortunate lady died of, then?"
+
+"It is my belief that she died of pure fear and nervous shock, though what it was that frightened her I cannot imagine."
+
+"Were there gipsies in the plantation at the time?"
+
+"Yes, there are nearly always some there."
+
+"Ah, and what did you gather from this allusion to a band--a speckled band?"
+
+"Sometimes I have thought that it was merely the wild talk of delirium, sometimes that it may have referred to some band of people, perhaps to these very gipsies in the plantation. I do not know whether the spotted handkerchiefs which so many of them wear over their heads might have suggested the strange adjective which she used."
+
+Holmes shook his head like a man who is far from being satisfied.
+
+"These are very deep waters," said he; "pray go on with your narrative."
+
+"Two years have passed since then, and my life has been until lately lonelier than ever. A month ago, however, a dear friend, whom I have known for many years, has done me the honour to ask my hand in marriage. His name is Armitage--Percy Armitage--the second son of Mr. Armitage, of Crane Water, near Reading. My stepfather has offered no opposition to the match, and we are to be married in the course of the spring. Two days ago some repairs were started in the west wing of the building, and my bedroom wall has been pierced, so that I have had to move into the chamber in which my sister died, and to sleep in the very bed in which she slept. Imagine, then, my thrill of terror when last night, as I lay awake, thinking over her terrible fate, I suddenly heard in the silence of the night the low whistle which had been the herald of her own death. I sprang up and lit the lamp, but nothing was to be seen in the room. I was too shaken to go to bed again, however, so I dressed, and as soon as it was daylight I slipped down, got a dog-cart at the Crown Inn, which is opposite, and drove to Leatherhead, from whence I have come on this morning with the one object of seeing you and asking your advice."
+
+"You have done wisely," said my friend. "But have you told me all?"
+
+"Yes, all."
+
+"Miss Roylott, you have not. You are screening your stepfather."
+
+"Why, what do you mean?"
+
+For answer Holmes pushed back the frill of black lace which fringed the hand that lay upon our visitor's knee. Five little livid spots, the marks of four fingers and a thumb, were printed upon the white wrist.
+
+"You have been cruelly used," said Holmes.
+
+The lady coloured deeply and covered over her injured wrist. "He is a hard man," she said, "and perhaps he hardly knows his own strength."
+
+There was a long silence, during which Holmes leaned his chin upon his hands and stared into the crackling fire.
+
+"This is a very deep business," he said at last. "There are a thousand details which I should desire to know before I decide upon our course of action. Yet we have not a moment to lose. If we were to come to Stoke Moran to-day, would it be possible for us to see over these rooms without the knowledge of your stepfather?"
+
+"As it happens, he spoke of coming into town to-day upon some most important business. It is probable that he will be away all day, and that there would be nothing to disturb you. We have a housekeeper now, but she is old and foolish, and I could easily get her out of the way."
+

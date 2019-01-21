@@ -3,9 +3,9 @@
 
 This is a Go(Golang) Program that reads in multiple files in the current working directory of the program under `/files` folder and lets the user to search for the occurance of a string in the multiple files present.
 
-The program uses Go Routines, Channels and Worker Pool to acheive this task concurrently.
+The program uses Go Routines, Unbuffered Channels and Worker Pool to acheive this task concurrently.
 
-The default string is set to `of` but the user is able to customize it via a flag.
+The default string is set to `of the` but the user is able to customize it via a flag.
 
 
 ## To Run The Program(on Linux):
@@ -17,10 +17,10 @@ Go to the directory where the program is stored and run the program using follow
 
 
 
-The default string is set to `of` but the user is able to customize it via the search string via command line arguments.
-To customize the seach string pass an command line argument `-word="<string to search>"` for example if the string is `the` pass the argument as: 
+The default string is set to `of the` but the user is able to customize it via the search string via command line arguments.
+To customize the seach string pass an command line argument `-word="<string to search>"` for example if the string is `and the` pass the argument as: 
 
-```go run main.go -word="the"```
+```go run main.go -word="and the"```
 
 
 ## Output:
@@ -28,7 +28,7 @@ To customize the seach string pass an command line argument `-word="<string to s
 
 Output of the program is available in the following gist:
 
-https://gist.github.com/aditya-nagare/044d1c6cdd0007238e83d3d06a8329e8
+https://gist.github.com/aditya-nagare/baa3f53730a82be0ad74a2916e0012e5
 
 
 

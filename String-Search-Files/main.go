@@ -1,21 +1,25 @@
 package main
 
 import (
+	"bufio"
 	"flag"
 	"fmt"
 	"io/ioutil"
 	"os"
-	"strconv"
 	"strings"
+	"sync"
 )
 
 func main() {
 
-	substr := flag.String("word", "of", "String to Search")
+	substr := flag.String("word", "of the", "String to Search")
 	flag.Parse()
 
-	filechannel := make(chan string, 100)
-	resultchannel := make(chan string, 100)
+	var wg sync.WaitGroup
+	workers := 10
+	wg.Add(workers)
+
+	ch := make(chan string)
 
 	workingDir, _ := os.Getwd()
 	filesDir := workingDir + "/" + "files/"
@@ -26,45 +30,45 @@ func main() {
 		os.Exit(1)
 	}
 
-	for w := 1; w <= 10; w++ {
-		go fileRead(filechannel, *substr, resultchannel)
+	for w := 0; w < workers; w++ {
+		go fileRead(*substr, ch, &wg)
 	}
-
-	path := ""
-
-	for _, f := range files {
-		path = filesDir + f.Name()
-		filechannel <- path
-	}
-
-	close(filechannel)
 
 	cnt := 0
-	for range files {
+	for _, f := range files {
+		ch <- filesDir + f.Name()
 		cnt++
-		fmt.Print("#", cnt, " ", <-resultchannel)
 	}
+	close(ch)
+	wg.Wait()
+
+	fmt.Println("\n-> Keyword Searched:'", *substr, "'")
+	fmt.Println("-> Number of Files Searched: ", cnt, "files")
+	fmt.Println("")
 }
 
-func fileRead(filechannel <-chan string, substr string, resultchannel chan<- string) {
-	for path := range filechannel {
-		b, err := ioutil.ReadFile(path)
+func fileRead(substr string, ch <-chan string, wg *sync.WaitGroup) {
+	defer wg.Done()
+	for {
+		path, ok := <-ch
+		if !ok {
+			return
+		}
+		b, err := os.Open(path)
 		if err != nil {
 			fmt.Print(err)
 		}
+		defer b.Close()
 
-		str := string(b)
+		scanner := bufio.NewScanner(b)
+
 		count := 0
-		wordlist := strings.Fields(str)
-
-		for _, word := range wordlist {
-			if strings.Contains(word, substr) {
+		for scanner.Scan() {
+			if strings.Contains(scanner.Text(), substr) {
 				count++
 			}
 		}
 
-		result := "The file " + path + " word '" + substr + "' has " + strconv.Itoa(count) + " occurances\n\n"
-		resultchannel <- result
-
+		fmt.Println("\nThe file:", path, "has ", count, " occurances.")
 	}
 }
